@@ -5,8 +5,8 @@ import Recipe from "./components/recipe";
 
 function App() {
 
-  const APP_ID = "437209d7";
-  const APP_KEY= "17286e1704e9a158e6171ec68fc03c7d";
+  const APP_ID = process.env.REACT_APP_RECIPE_APP_ID;
+  const APP_KEY= process.env.REACT_APP_RECIPE_APP_KEY;
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
