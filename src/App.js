@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import './App.css';
 import Jumbotron from './components/jumbotron';
 
@@ -8,7 +8,17 @@ function App() {
   const APP_KEY= "17286e1704e9a158e6171ec68fc03c7d";
 
 
-  const exampleRequest = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`;
+
+  useEffect(() => {
+    getRecipes()
+    }, []);
+
+  const getRecipes = async () => {
+    const response = await fetch(`https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`)
+    const data = await response.json();
+    console.log(data);
+    
+  }
 
 
   return (
