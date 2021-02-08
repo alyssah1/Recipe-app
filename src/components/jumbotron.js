@@ -5,7 +5,7 @@ function Jumbotron() {
         <>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                    <h1 className="display-4">Recipe App</h1>
+                    <h1 className="display-4" style={{fontSize: "60px", fontWeight: "bold"}}>Recipe App</h1>
                 </div>
             </div>
         </>

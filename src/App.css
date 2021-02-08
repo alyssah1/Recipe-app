@@ -21,3 +21,9 @@
   flex-wrap: wrap;
 }
 
+.jumbotron{
+  background: url(https://www.naturalnews.com/wp-content/uploads/sites/91/2018/02/Organic-Food-Background-Photography-Different-Fruits.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
