@@ -19,6 +19,7 @@ You will also see any lint errors in the console.
 This application uses Edamam API to retrieve ingredient list, diet label, health label, image, and title. 
 
 # Application Link
+https://alyssah1.github.io/Recipe-app/
 
 ![screenshot1](/src/images/recipe1.png)
 ![screenshot2](/src/images/recipe2.png)
