@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../recipe.module.css";
 
-function Recipe({ title, calories, image, ingredients }) {
+function Recipe({ title, dietLabels, healthLabels, image, ingredients }) {
     return (
         <>
         <div className="container"> 
@@ -15,7 +15,10 @@ function Recipe({ title, calories, image, ingredients }) {
                                 <li>{ingredient.text}</li>
                             ))}
                         </ol>
-                        <p>Calories: {calories}</p>
+                        <p>Diet Label: {dietLabels}</p>
+                        <p>
+                        Health Label: {healthLabels.join(" , ")}
+                        </p>
                         <img className={style.image} src={image} alt=""></img>
                     </div>
                 </div>    
