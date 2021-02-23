@@ -1,29 +1,28 @@
 .App {
-  text-align: center;
-  min-height: 100vh;
+    text-align: center;
+    min-height: 100vh;
 }
 
-.search-form{
-  min-height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.search-form {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.search-bar{
-  width: 30%;
-  padding: 10px;
+.search-bar {
+    width: 30%;
+    padding: 10px;
 }
 
-.recipes{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.recipes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.jumbotron{
-  background: url(https://www.naturalnews.com/wp-content/uploads/sites/91/2018/02/Organic-Food-Background-Photography-Different-Fruits.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.jumbotron {
+    background: url(https://www.naturalnews.com/wp-content/uploads/sites/91/2018/02/Organic-Food-Background-Photography-Different-Fruits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
